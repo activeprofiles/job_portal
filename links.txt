@@ -1,0 +1,5 @@
+JPA Entitites:
+https://www.youtube.com/watch?v=LrbaDRcu3Y0
+
+
+https://download.eclipse.org/datatools/updates/1.13/1.13.0.201603142002/repository/
