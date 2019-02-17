@@ -1,10 +1,15 @@
-JPA Entitites:
+1. STS Eclipse:
+https://tools.jboss.org/downloads/jbosstools/2018-09/4.9.0.Final.html
+
+2. Install data tool plugin:
+   Repo - https://ci.eclipse.org/datatools/job/org.eclipse.datatools_master/lastSuccessfulBuild/artifact/site/target/site.zip
+   (main site - https://www.eclipse.org/datatools/downloads.php)
+
+3. Install JBoss Hibernate Tool:
+https://tools.jboss.org/downloads/jbosstools/2018-09/4.9.0.Final.html
+
+4. How to create JPA Entitites:
 https://www.youtube.com/watch?v=LrbaDRcu3Y0
 
-
-https://download.eclipse.org/datatools/updates/1.13/1.13.0.201603142002/repository/
-
-
-
-ER Master:
+5. ER Master:
 https://sourceforge.net/projects/ermaster/
