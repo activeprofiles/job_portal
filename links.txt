@@ -9,10 +9,11 @@ https://tools.jboss.org/downloads/jbosstools/2018-09/4.9.0.Final.html
 https://tools.jboss.org/downloads/jbosstools/2018-09/4.9.0.Final.html
 
 4. Install Database:
-  https://www.postgresql.org/
+  https://www.postgresql.org/download/windows/  - V 11
+  https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.2/windows/
 
-4. How to create JPA Entitites:
+5. How to create JPA Entitites:
 https://www.youtube.com/watch?v=LrbaDRcu3Y0
 
-5. ER Master:
+6. ER Master:
 https://sourceforge.net/projects/ermaster/
