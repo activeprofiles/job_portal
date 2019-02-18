@@ -1,5 +1,6 @@
 1. STS Eclipse:
 https://tools.jboss.org/downloads/jbosstools/2018-09/4.9.0.Final.html
+https://springsource-tool-suite-3.9.7.RELEASE-e4.10.0-updatesite.zip  - update through install software (Optional)
 
 2. Install data tool plugin:
    Repo - https://ci.eclipse.org/datatools/job/org.eclipse.datatools_master/lastSuccessfulBuild/artifact/site/target/site.zip
