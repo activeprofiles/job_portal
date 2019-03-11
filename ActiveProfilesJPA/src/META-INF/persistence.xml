@@ -3,6 +3,7 @@
 	<persistence-unit name="ActiveProfilesJPA">
 		<class>com.activeprofiles.dao.entities.AppMenu</class>
 		<class>com.activeprofiles.dao.entities.BusinessStream</class>
+		<class>com.activeprofiles.dao.entities.City</class>
 		<class>com.activeprofiles.dao.entities.Company</class>
 		<class>com.activeprofiles.dao.entities.CompanyDetail</class>
 		<class>com.activeprofiles.dao.entities.JobOpening</class>
@@ -15,8 +16,11 @@
 		<class>com.activeprofiles.dao.entities.JobSeekerSkill</class>
 		<class>com.activeprofiles.dao.entities.JobSeekerSkillsOther</class>
 		<class>com.activeprofiles.dao.entities.MenuRole</class>
+		<class>com.activeprofiles.dao.entities.Person</class>
+		<class>com.activeprofiles.dao.entities.PersonCity</class>
 		<class>com.activeprofiles.dao.entities.ProfileDetail</class>
 		<class>com.activeprofiles.dao.entities.Skill</class>
+		<class>com.activeprofiles.dao.entities.State</class>
 		<class>com.activeprofiles.dao.entities.SystemRole</class>
 		<class>com.activeprofiles.dao.entities.UserAccount</class>
 		<class>com.activeprofiles.dao.entities.UserAddressDetail</class>

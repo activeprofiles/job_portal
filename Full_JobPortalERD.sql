@@ -6,7 +6,7 @@ CREATE TABLE app_menu
 	id integer NOT NULL,
 	code varchar(15) NOT NULL,
 	level integer NOT NULL,
-	desc varchar(250),
+	description varchar(250),
 	PRIMARY KEY (id)
 );
 
@@ -36,7 +36,7 @@ CREATE TABLE company_details
 (
 	id integer NOT NULL,
 	company_id integer NOT NULL,
-	logo clob NOT NULL,
+	logo text NOT NULL,
 	company_url varchar(1000),
 	PRIMARY KEY (id)
 );
@@ -165,7 +165,7 @@ CREATE TABLE profile_details
 	id integer NOT NULL,
 	usr_acc_id integer NOT NULL,
 	profile_type varchar(15),
-	profile blob NOT NULL,
+	profile bytea NOT NULL,
 	active boolean NOT NULL,
 	PRIMARY KEY (id)
 );
@@ -184,7 +184,7 @@ CREATE TABLE system_roles
 (
 	id integer NOT NULL,
 	code varchar(15) NOT NULL UNIQUE,
-	desc varchar(250),
+	description varchar(250),
 	creation_date timestamp,
 	last_updated_date timestamp,
 	updated_by varchar(15),
@@ -198,11 +198,11 @@ CREATE TABLE user_account
 	usr_type integer NOT NULL,
 	userid varchar(25) NOT NULL UNIQUE,
 	-- Password
-	password nvarchar(25) NOT NULL,
+	password varchar(25) NOT NULL,
 	-- First Name
-	first_name nvarchar(25) NOT NULL,
+	first_name varchar(25) NOT NULL,
 	-- middle_name
-	middle_name nvarchar(25),
+	middle_name varchar(25),
 	last_name varchar(25),
 	date_of_birth date NOT NULL,
 	registration_date date NOT NULL,
@@ -265,7 +265,7 @@ CREATE TABLE user_type
 (
 	id integer NOT NULL,
 	code varchar(15) NOT NULL UNIQUE,
-	desc varchar(250),
+	description varchar(250),
 	PRIMARY KEY (id)
 );
 
